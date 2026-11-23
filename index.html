@@ -1,175 +1,63 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#03040b">
-
-    <title>VÉLORA — The World That Listens</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- MAIN MENU -->
-    <div id="menu" class="menu">
+    <h1>VEXUNO STUDEO</h1>
 
-        <div class="menu-content">
+    <p>CREATE. PLAY. DISCOVER.</p>
 
-            <div class="game-logo">
-                <h1>VÉLORA</h1>
-                <p>THE WORLD THAT LISTENS</p>
-            </div>
+    <hr>
 
-            <div class="menu-subtitle">
-                AN UNKNOWN WORLD AWAITS
-            </div>
+    <h2>WELCOME TO VEXUNO</h2>
 
-            <!-- LOGIN AREA -->
-            <div id="loginArea" class="auth-area">
+    <p>
+        I create games, build worlds
+        and bring new ideas to life.
+    </p>
 
-                <button id="googleButton" class="menu-button">
-                    SIGN IN WITH GOOGLE
-                </button>
+    <button type="button">DISCOVER MORE</button>
 
-                <div id="loginStatus" class="menu-message"></div>
+   <hr>
 
-            </div>
-
-            <!-- LOGGED IN AREA -->
-            <div id="loggedInArea" hidden>
-
-                <div id="playerName"></div>
-                <div id="playerEmail"></div>
-
-                <button id="logoutButton" class="menu-button">
-                    SIGN OUT
-                </button>
-
-            </div>
-
-            <button id="startButton" class="main-button">
-                ENTER THE WORLD
-            </button>
-
-            <button id="newGameButton" class="menu-button">
-                NEW GAME
-            </button>
-
-            <div class="objective">
-                FIND THE LOST MEMORIES
-            </div>
-
-            <div class="menu-footer">
-                A WORLD WITHOUT SOUND IS A WORLD WITHOUT FORM
-            </div>
-
-        </div>
-
-        <!-- LEADERBOARD -->
-        <section class="leaderboard">
-
-            <h2>GLOBAL LEADERBOARD</h2>
-
-            <p>THE EXPLORERS OF VÉLORA</p>
-
-            <div id="playersList">
-                <div class="leaderboard-loading">
-                    Loading explorers...
-                </div>
-            </div>
-
-        </section>
-
-    </div>
+    <h2>OUR MISSION</h2>
 
 
-    <!-- GAME AREA -->
-    <div id="gameUI" hidden>
+    <p>
+        my mission is to create unique games
+        that players will remember.
+    </p>
 
-        <canvas id="game"></canvas>
+    <hr>
 
-        <!-- HUD -->
-        <div class="hud">
+    <h2>WHAT WE CREATE</h2>
 
-            <div class="hud-left">
+    <h3>🎮 GAMES</h3>
+    <p>Fun and exciting gaming experiences.</p>
 
-                <div class="hud-panel">
-                    <span class="hud-label">MEMORIES</span>
-                    <span id="crystalCount">0 / 5</span>
-                </div>
+    <h3>🌍 WORLDS</h3>
+    <p>New places to explore and discover.</p>
 
-                <div class="hud-panel">
-                    <span class="hud-label">HEALTH</span>
+    <h3>💡 IDEAS</h3>
+    <p>Creative ideas turned into real projects.</p>
 
-                    <div class="bar">
-                        <div id="healthBar" class="bar-fill health-fill"></div>
-                    </div>
-                </div>
+    <hr>
 
-                <div class="hud-panel">
-                    <span class="hud-label">ENERGY</span>
+    <h2>THE FUTURE</h2>
 
-                    <div class="bar">
-                        <div id="energyBar" class="bar-fill energy-fill"></div>
-                    </div>
-                </div>
+    <p>
+        the first game wil be released at december 20
+    </p>
 
-            </div>
+    <hr>
 
-            <div class="hud-right">
-
-                <div class="hud-panel">
-                    <span class="hud-label">COINS</span>
-                    <span id="coinsDisplay">🪙 0</span>
-                </div>
-
-                <div class="hud-panel">
-                    <span class="hud-label">SHOCKWAVE</span>
-                    <span id="cooldown">READY</span>
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- HINT -->
-        <div id="hint" class="game-message"></div>
-
-        <!-- MESSAGE -->
-        <div id="message" class="game-message" role="status" aria-live="polite"></div>
-
-    </div>
-
-
-    <!-- WIN SCREEN -->
-    <div id="winScreen" class="overlay" hidden>
-
-        <div class="overlay-content">
-
-            <h2>MEMORIES RESTORED</h2>
-
-            <p>
-                You have brought light back to VÉLORA.
-            </p>
-
-            <button id="restartButton" class="main-button">
-                PLAY AGAIN
-            </button>
-
-        </div>
-
-    </div>
-
-
-    <!-- GAME SCRIPT -->
-    <script type="module" src="./app.js"></script>
+    <p>© 2026 VEXUNO STUDEO</p>
 
 </body>
+
 </html>
