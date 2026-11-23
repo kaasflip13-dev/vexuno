@@ -1,29 +1,29 @@
 
 body {
-    background-color: #13F260;
+    background-color: #0C782C;
     color: white;
     font-family: Arial;
     text-align: center;
 }
 
 h1 {
-    color: #00D44C;
+    color: #00330E;
     font-size: 55px;
     
 }
 
 h2 {
-    color: #0CB046;
+    color: #00330E;
     font-size: 28px;
 }
 
 p {
-    color: #26AB56;
+    color: #336641;
     font-size: 18px;
 }
 
 hr {
-    border: 1px solid #267D36;
+    border: 3px solid #001C07;
     width: 80%;
 }
 
