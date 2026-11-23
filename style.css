@@ -1,55 +1,53 @@
-          body {
-            background-color: #3ba059;
-            color: white;
-            font-family: Arial;
-            text-align: center;
-        }
 
-        h1 {
-            color: #166f1f;
-            font-size: 55px;
-            
-        }
+body {
+    background-color: #07140B;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
 
-        h2 {
-            color: #22762b;
-            font-size: 28px;
-        }
+h1 {
+    color: #83F28F;
+    font-size: 55px;
+    text-shadow: 0 0 10px #35FF55,
+                 0 0 25px #35FF55;
+}
 
-        p {
-            color: #77d585;
-            font-size: 18px;
-        }
+h2 {
+    color: #83F28F;
+    font-size: 28px;
+}
 
-        hr {
-            border: 1px solid #267D36;
-            width: 80%;
-        }
+p {
+    color: #C5D8C8;
+    font-size: 18px;
+}
 
-        button {
-            background-color: #35D653;
-            color: #07140B;
-            font-size: 18px;
-            font-weight: bold;
-            border: 2px solid #83F28F;
-            border-radius: 12px;
-            padding: 15px;
-            width: 220px;
-            height: 55px;
-            margin: 20px;
-            transition: 0.2s;
-        }
+hr {
+    border: 1px solid #267D36;
+    width: 80%;
+}
 
-        button:hover {
-            background-color: #83F28F;
-            color: black;
-        }
+button {
+    background-color: #35D653;
+    color: #07140B;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px circle #83F28F;
+    border-radius: 12px;
+    padding: 15px;
+    width: 220px;
+    height: 55px;
+    margin: 20px;
+    transition: 0.3s;
+}
 
-        h3 {
-            color: #83F28F;
-            font-size: 22px;
-        }
+button:hover {
+    background-color: #83F28F;
+    color: black;
+}
 
-  
-
-    
+h3 {
+    color: #83F28F;
+    font-size: 22px;
+}
