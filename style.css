@@ -43,6 +43,7 @@
             transition: 0.2s;
             box-shadow: 0 0 30px rgb(0, 0, 0);
              opacity: 0.8;
+           cursor: pointer;
         }
 
         button:hover {
@@ -70,6 +71,7 @@
 .game-window:hover {
     background-color: #08652A;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .game-window h3 {
