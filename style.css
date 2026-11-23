@@ -1,52 +1,78 @@
-
-body {
-    background-color: #0C782C;
-    color: white;
-    font-family: Arial;
-    text-align: center;
-}
-
-h1 {
-    color: #00330E;
-    font-size: 55px;
     
-}
 
-h2 {
-    color: #00330E;
-    font-size: 28px;
-}
+        body {
+            background-color: #3ba059;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+        }
 
-p {
-    color: #0C5E21;
-    font-size: 18px;
-}
+        h1 {
+            color: #166f1f;
+            font-size: 55px;
+            
+        }
 
-hr {
-    border: 3px solid #001C07;
-    width: 80%;
-}
+        h2 {
+            color: #22762b;
+            font-size: 28px;
+        }
 
-button {
-    background-color: #35D653;
-    color: #07140B;
-    font-size: 18px;
-    font-weight: bold;
-    border: 2px circle #83F28F;
-    border-radius: 12px;
-    padding: 15px;
-    width: 220px;
-    height: 55px;
-    margin: 20px;
+        p {
+            color: #77d585;
+            font-size: 18px;
+        }
+
+        hr {
+            border: 1px solid #267D36;
+            width: 80%;
+        }
+
+        button {
+            background-color: #35D653;
+            color: #07140B;
+            font-size: 18px;
+            font-weight: bold;
+            border: 2px circle #83F28F;
+            border-radius: 12px;
+            padding: 15px;
+            width: 220px;
+            height: 55px;
+            margin: 20px;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background-color: #83F28F;
+            color: black;
+        }
+
+        h3 {
+            color: #83F28F;
+            font-size: 22px;
+        }
+
+
+.game-window {
+    background-color: #064D20;
+    border: 3px solid #00330E;
+    border-radius: 15px;
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
     transition: 0.3s;
 }
 
-button:hover {
-    background-color: #83F28F;
-    color: black;
+.game-window:hover {
+    background-color: #08652A;
 }
 
-h3 {
+.game-window h3 {
     color: #83F28F;
-    font-size: 22px;
+    font-size: 25px;
+}
+
+.game-window p {
+    color: white;
+    font-size: 18px;
 }
