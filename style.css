@@ -1,25 +1,24 @@
 
 body {
-    background-color: #07140B;
+    background-color: #FCFFFD;
     color: white;
     font-family: Arial;
     text-align: center;
 }
 
 h1 {
-    color: #83F28F;
+    color: #00D44C;
     font-size: 55px;
-    text-shadow: 0 0 10px #35FF55,
-                 0 0 25px #35FF55;
+    
 }
 
 h2 {
-    color: #83F28F;
+    color: #0CB046;
     font-size: 28px;
 }
 
 p {
-    color: #C5D8C8;
+    color: #26AB56;
     font-size: 18px;
 }
 
