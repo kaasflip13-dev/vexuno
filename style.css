@@ -69,6 +69,7 @@
 
 .game-window:hover {
     background-color: #08652A;
+    transform: scale(1.1);
 }
 
 .game-window h3 {
